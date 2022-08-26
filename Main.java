@@ -22,7 +22,7 @@ public class Main {
                System.out.println("transaction successful");
                 break;
             default:
-                System.out.println("no option was selected");
+                System.out.println("please select between 1-3 only");
         }
 
 }}
