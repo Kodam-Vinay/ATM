@@ -7,19 +7,22 @@ public class Main {
         System.out.println("1-Balance");
         System.out.println("2-Withdraw");
         System.out.println("3-Deposit Money");
-        System.out.println("4-exit");
         int option = s.nextInt();
 
         switch(option){
            case 1:
-               System.out.print(acc.Balance());
+               System.out.print("your account current balance is : "+acc.Balance());
                break;
            case 2:
-               System.out.println(acc.WithdrawMoney());
+               System.out.println("remaining balance is : "+acc.WithdrawMoney());
+               System.out.println("transaction successful");
                break;
            case 3:
-               System.out.println(acc.DepositMoney());
-       }
+               System.out.println("updated balance : "+acc.DepositMoney());
+               System.out.println("transaction successful");
+            default:
+                System.out.println("no option was selected");
+        }
 
 }}
 
