@@ -20,6 +20,7 @@ public class Main {
            case 3:
                System.out.println("updated balance : "+acc.DepositMoney());
                System.out.println("transaction successful");
+                break;
             default:
                 System.out.println("no option was selected");
         }
