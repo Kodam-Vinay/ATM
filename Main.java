@@ -7,6 +7,7 @@ public class Main {
         System.out.println("1-Balance");
         System.out.println("2-Withdraw");
         System.out.println("3-Deposit Money");
+        System.out.print("select any option :");
         int option = s.nextInt();
 
         switch(option){
